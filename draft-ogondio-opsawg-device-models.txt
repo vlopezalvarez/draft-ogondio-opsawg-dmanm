@@ -5,8 +5,8 @@
 Operations and Management Area Working Group               O. G. D. Dios
 Internet-Draft                                                Telefonica
 Intended status: Informational                                  V. Lopez
-Expires: 11 January 2024                                           Nokia
-                                                            10 July 2023
+Expires: 25 April 2024                                             Nokia
+                                                         23 October 2023
 
 
   Guidelines to use device models in the North-Bound Interface of SDN
@@ -54,7 +54,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress."
 
-   This Internet-Draft will expire on 11 January 2024.
+   This Internet-Draft will expire on 25 April 2024.
 
 Copyright Notice
 
@@ -314,6 +314,10 @@ Table of Contents
    element.  The "ne-id" leaf represents the identifier of each network
    element and has a string data type.
 
+   Figure 2 represents the tree of the proposed YANG model.  Tree
+   diagrams used in this document follow the notation defined in
+   [RFC8340].
+
                    module: grp-ntw-elements
                      +--rw grp-ntw-elements* [grp-ne-id]
                         +--rw grp-ne-id       string
@@ -553,6 +557,10 @@ Table of Contents
    [RFC8174]  Leiba, B., "Ambiguity of Uppercase vs Lowercase in RFC
               2119 Key Words", BCP 14, RFC 8174, DOI 10.17487/RFC8174,
               May 2017, <https://www.rfc-editor.org/rfc/rfc8174>.
+
+   [RFC8340]  Bjorklund, M. and L. Berger, Ed., "YANG Tree Diagrams",
+              BCP 215, RFC 8340, DOI 10.17487/RFC8340, March 2018,
+              <https://www.rfc-editor.org/rfc/rfc8340>.
 
    [RFC8349]  Lhotka, L., Lindem, A., and Y. Qu, "A YANG Data Model for
               Routing Management (NMDA Version)", RFC 8349,
